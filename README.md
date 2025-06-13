@@ -8,16 +8,16 @@ A reinforcement learning project that trains an agent to dynamically control a 4
 
 | Feature                        | Description                                                   |
 |-------------------------------|---------------------------------------------------------------|
-| ✅ Custom `gym.Env`           | Designed from scratch for 4-lane traffic simulation           |
-| ✅ RL Algorithm                | Deep Q-Network (DQN) via Stable-Baselines3                    |
-| ✅ Interface                   | Streamlit demo to simulate agent decisions in real-time       |
-| ✅ Visualization               | Reward-vs-episode curve plotted using Matplotlib              |
-| ✅ Real-time inference         | Runs inference on trained agent in CLI and web UI             |
-| ✅ Resume-Ready Metrics        | 200 episodes, reward ~-600, steps/episode: 100                |
+| Custom `gym.Env`           | Designed from scratch for 4-lane traffic simulation           |
+| RL Algorithm                | Deep Q-Network (DQN) via Stable-Baselines3                    |
+| Interface                   | Streamlit demo to simulate agent decisions in real-time       |
+| Visualization               | Reward-vs-episode curve plotted using Matplotlib              |
+| Real-time inference         | Runs inference on trained agent in CLI and web UI             |
+| Resume-Ready Metrics        | 200 episodes, reward ~-600, steps/episode: 100                |
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Traditional traffic signals use fixed timers, which fail to adapt to real-time conditions. This project simulates an **adaptive RL-based signal controller** that:
 - Observes the traffic queue on all four sides
@@ -26,19 +26,19 @@ Traditional traffic signals use fixed timers, which fail to adapt to real-time c
 
 ---
 
-## 🧠 Model & Training Stats
+## Model & Training Stats
 
 - **Episodes Trained**: 200
 - **Average Reward**: `-604` per 100-step episode (improved from ~-800 baseline)
 - **FPS**: ~2600
 - **Policy**: Fully trained DQN with epsilon decay to 0.05
-- **Model Saved**: ✅ Yes (`models/dqn_traffic_model.zip`)
+- **Model Saved**:Yes (`models/dqn_traffic_model.zip`)
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
-- Python 🐍
+- Python 
 - [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3) (DQN)
 - OpenAI Gym (Custom Env)
 - NumPy, Matplotlib
@@ -46,7 +46,7 @@ Traditional traffic signals use fixed timers, which fail to adapt to real-time c
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Install Requirements
 ```bash
@@ -75,14 +75,14 @@ streamlit run streamlit_app/app.py
 
 ---
 
-## 📈 Reward vs. Episode Plot
+## Reward vs. Episode Plot
 
 > _Include this image if you have it_
 ![Reward Curve](training_reward_plot.png)
 
 ---
 
-## 📬 Example Output (Console)
+## Example Output (Console)
 
 ```txt
 Traffic: N:2 S:4 E:5 W:5
@@ -115,13 +115,6 @@ MIT License © 2024
 
 ---
 
-## 💼 Add to Resume
-
-> ✅ Trained a DQN agent using Stable-Baselines3 to optimize a 4-way traffic signal  
-> 📉 Achieved average episode reward of ~-600 vs static baseline  
-> 🧠 Designed custom OpenAI Gym environment and deployed real-time demo via Streamlit
-
----
 
 ## 🔗 Links
 
