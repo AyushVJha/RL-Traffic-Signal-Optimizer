@@ -1,10 +1,10 @@
-# 🚦 RL-Powered Traffic Signal Optimizer
+# RL-Powered Traffic Signal Optimizer
 
 A reinforcement learning project that trains an agent to dynamically control a 4-way traffic signal using Deep Q-Learning. The goal is to minimize vehicle congestion and waiting time using intelligent policy learning.
 
 ---
 
-## 📊 Project Highlights
+## Project Highlights
 
 | Feature                        | Description                                                   |
 |-------------------------------|---------------------------------------------------------------|
